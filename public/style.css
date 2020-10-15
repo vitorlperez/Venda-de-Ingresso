@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27');
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{height: 100%;}
+body {
+    width: 100%;
+    height: 100%;
+    background:#37475c;
+    color: #ffffff;
+}
+header{
+    border-bottom: 3px solid black;
+    height: 110px;
+    padding: 0px;
+}
+header .links {
+    text-align: center;
+    padding-top: 40px;
+}
+.geral{
+    min-height: 100%;
+    position: relative;
+}
+.links a, i{
+    color: white;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0px 10px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 4px;
+}
+.logo_head{
+    padding: 5px;
+    padding-left: 30px;
+}
+.logo_head img{
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 100px;
+    position: absolute;
+}
+.lista_filmes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.lista_filmes h1{
+    font-size: 60px;
+}
+.filme {
+    background-color: #85a4ad;
+    padding: 10px;
+    width: 250px;
+    border: 3px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.sala img{
+    height: 300px;
+    width: 100%;
+}
+.sala i{
+    float: none;
+}
+.sala a{
+    color: white;
+    text-decoration: none;
+}
+.sala a:hover{
+    border-bottom: 1px solid white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    grid-gap: 20px;
+}
+.lista-de-compras{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.lista-de-compras h1{
+    font-size: 60px
+}
+.compra{
+    text-align: center;
+    padding: 10px;
+    background-color: #85a4ad;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 10px;
+}
+.descricao img{
+    width: 100%;
+}
+.descricao i{
+    float: none;
+}
+.grid-container-cancela {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+.grid-container.cadeiras {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-column-gap: 0px;
+}
+.a1{
+    text-align: center;
+}
+.b1{
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(7, 100, 7);
+}
+.b2{
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(173, 8, 8);
+}
+.nova-sessao{
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+.nova-sessao h1{
+    text-align: center;
+}
+.form-control.foto{
+    background-color: #37475c;
+    color: white;
+    border: none;
+    height: auto;
+    padding: 0  ;
+}
+.btn.btn-primary.salvar{
+    background-color: rgb(7, 100, 7);
+    border: none;
+    margin-right: 15px;
+}
+.btn.btn-primary.deletar{
+    background-color:  rgb(173, 8, 8);
+    border: none;
+}
+.tipo-ticket{
+    text-align: center;
+    margin-top: 10px;
+}
+.preco{
+    text-align: center;
+    font-size: 18px;
+}
+.tela{
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 350px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.Rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.espaco{
+    width: 100%;
+    height: 50px;
+}
+#login {
+    text-align: center;
+    color:  white;
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+#logo {
+    text-align: center;
+    padding: 32px;
+}
+#logo img{
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-bottom: 10px;
+    height: 200px;
+}
+#cadastrar{
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+#button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #8aabca;
+}
+#button-2 button{
+    background-color: rgb(173, 8, 8);
+    border: none;
+    margin-top: 10px;
+}
+#button-3{
+    text-align: center;
+}
+#button-3 button{
+    border: none;
+    background-color: rgb(7, 100, 7);
+}
+#button-4{
+    text-align: center;
+    margin-top: 20px;
+}
+#button-4 button{
+    border: none;
+    background-color: black;
+}
+.atual {
+    font-weight: bold;
+}
+/* .links a:hover{
+    border-bottom: 1px solid white;
+} */
+
+/* Bottom decoration */
+
+.links a::after {
+    content: "";
+    width: 0;
+    height: 2px; 
+    background-color: white;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    
+}
+
+.links a:hover::after {
+    width: 100%;
+    transition: width 200ms ease-in-out;
+}
+
+
+

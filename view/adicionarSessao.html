@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="shortcut icon" href="/pics/icone.ico"  />
+    <title>PopFlix</title>
+</head>
+<body>
+    <header>
+        <div class = "logo_head">  
+            <img src="/pics/logo_teste.png" alt="PopFlix">
+        </div>
+        <div class = "links">
+            <a class = "atual" href="">Adicionar Sessão</a>
+            <i>-</i>
+            <a href="editarSessao.html">Editar Sessão</a>
+        </div>
+    </header>
+    <div class="nova-sessao">
+        <h1>Nova sessão</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Nome do Filme</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome do filme">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Cartaz</label>
+              <input type="file" class="form-control foto" aria-describedby="emailHelp" placeholder="Ex.:123456789">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Preço Ticket (Inteira)</label>
+              <input type="text" class="form-control" placeholder="Valor em R$">
+            </div>
+            <div id="button-3">
+                <button type="submit" class="btn btn-primary">Adicionar</button>
+            </div>
+        </form>
+    </div>
+    <div class="Rodape">
+        <div><small>Todos os Direitos reservados a Vitor Lage</small></div>
+        <small>Manaus-AM 2020</small>
+    </div>
+</body>
+</html>
